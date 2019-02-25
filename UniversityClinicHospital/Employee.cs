@@ -17,7 +17,7 @@ namespace UniversityClinicHospital
 
         public Employee(string name, int employeeid, string jobtitle, int salary)
         {
-            Name = name;
+            Name = name; 
             Salary = salary;
             JobTitle = jobtitle;
             EmployeeID = employeeid;
