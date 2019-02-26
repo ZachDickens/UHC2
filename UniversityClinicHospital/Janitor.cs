@@ -6,7 +6,6 @@ namespace UniversityClinicHospital
 {
     public class Janitor : Employee
     {
-        //use bool for sweeping or not
         bool sweeping = false;
         public Janitor()
         {

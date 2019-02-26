@@ -23,20 +23,11 @@ namespace UniversityClinicHospital
             };
 
             PerformActivitiesMenu(Employees, patient);
-            
-            
+                        
         }
         
         public static void PerformActivitiesMenu(List<Employee> Employees, Patient patient)
-        {
-            //Nurse = draw blood or give medicine  or call 
-            //doctor = draw blood or give medicine or call
-            //receptionist = call 
-            //janitor = sweep
-            // doctor is 1, nurse is 2, receptionist is 3, janitor is 4
-
-            //welcome to university hospital directory
-            //
+        {            
             
             string userInput;
             bool running = true;
@@ -176,26 +167,19 @@ namespace UniversityClinicHospital
                 }
 
             }
-            
-
-                
-               
+                         
         }
 
         public static void PrintList(List<Employee> employees)
         {
-            Console.WriteLine("Name | Employee ID | Job Title | Salary | Job Spec Info");
+            Console.WriteLine("Name | Employee ID | Job Title | Salary | Job Specific Info");
             foreach (Employee employee in employees)
             {
                 Console.WriteLine(employee.PrintEmployee());
             }
 
         }
-        // janitor clean up floor in patients room
-        // receptionist call doctor for emergency
-        // nurse draw blood 
-        // doctor draw blood if blood level increases, health decreases
-
+        
         
         
     }

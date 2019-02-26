@@ -23,19 +23,15 @@ namespace UniversityClinicHospital
         }
 
         public void DoctorDrawBlood()
-        {
-            
+        {          
          BloodLevel = BloodLevel - 5;
-         HealthLevel = HealthLevel - 1;
-               
+         HealthLevel = HealthLevel - 1;              
         }
 
         public void NurseDrawBlood()
-        {
-                       
+        {                     
          BloodLevel = BloodLevel - 3;
-         HealthLevel = HealthLevel - 1;
-            
+         HealthLevel = HealthLevel - 1;   
         }
 
         public void GivePatientMedicine()

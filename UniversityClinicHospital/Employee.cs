@@ -43,15 +43,7 @@ namespace UniversityClinicHospital
             }        
             
         }
-
-
-        // janitor clean up floor in patients room
-        // receptionist call doctor for emergency
-        // nurse draw blood 
-        // doctor draw blood if blood level increases, health decreases
-
         public abstract string PrintEmployee();
-
 
     }
 }
