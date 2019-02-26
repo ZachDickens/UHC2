@@ -9,8 +9,6 @@ namespace UniversityClinicHospital
         // use bool for on phone or not
         bool onthephone = false;
         
-        
-
         public Receptionist()
         {
             Salary = 45000;

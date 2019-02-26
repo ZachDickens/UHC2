@@ -11,18 +11,13 @@ namespace UniversityClinicHospital
         public string JobTitle;
         public int EmployeeID;
         bool paid = false;
-        
-        
-        
-
+                
         public Employee(string name, int employeeid, string jobtitle, int salary)
         {
             Name = name; 
             Salary = salary;
             JobTitle = jobtitle;
-            EmployeeID = employeeid;
-
-          
+            EmployeeID = employeeid;    
         }
         public Employee()
         {
@@ -34,7 +29,6 @@ namespace UniversityClinicHospital
             if (paid == true)
             {
                 Console.WriteLine("You have already paid all your employees");
-
             }
             else 
             {               
@@ -44,6 +38,5 @@ namespace UniversityClinicHospital
             
         }
         public abstract string PrintEmployee();
-
     }
 }

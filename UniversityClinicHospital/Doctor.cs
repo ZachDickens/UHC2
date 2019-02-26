@@ -10,23 +10,18 @@ namespace UniversityClinicHospital
         public string SpecialtyArea { get; set; }
         
         public Doctor()
-        {
-           
+        {           
             Salary = 90000;
             SpecialtyArea = "Heart";
             Name = "Joe";
             EmployeeID = 967;
             JobTitle = "Doctor";
-
         }
 
         public override string PrintEmployee()
         {
             return Name + " " + EmployeeID + " " + JobTitle + " " + Salary + " " + SpecialtyArea;
         }
-
-        
-
     }
     
 }

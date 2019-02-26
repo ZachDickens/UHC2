@@ -71,8 +71,6 @@ namespace UniversityClinicHospital
                                 Console.WriteLine("Press any key to continue");
                                 Console.ReadLine();
                                 Console.Clear();
-
-
                             }
                             if (userInput == "2")
                             {
@@ -93,9 +91,9 @@ namespace UniversityClinicHospital
                         if (userInput == "2")
                         {
                             Console.WriteLine("You have chosen Nurse");
-                            Console.WriteLine("Press 1 to draw blood" +
-                                              "Press 2 to give medicine" +
-                                              "Press 3 to call a doctor to report to the emergency room");
+                            Console.WriteLine("Press 1 to draw blood \n" +
+                                              "Press 2 to give medicine \n" +
+                                              "Press 3 to call a doctor to report to the emergency room \n");
                             
                             if (userInput == "1")
                             {
@@ -118,7 +116,6 @@ namespace UniversityClinicHospital
                             if (userInput == "3")
                             {
                                 Console.WriteLine("The Nurse calls a doctor to the emergency room");
-
                             }
 
 
@@ -133,16 +130,21 @@ namespace UniversityClinicHospital
                                 Console.WriteLine("The Receptionist calls a doctor to the emergency room");
                             }
                         }
+                        
                         if (userInput == "4")
-                        {
+                        {                           
                             Console.WriteLine("You have chosen Janitor");
                             Console.WriteLine("Press 1 to sweep the emergency room floor");
                             
                             if (userInput == "1")
                             {
                                 Console.WriteLine("The Janitor has swept the emergency room floor");
+
                             }
                         }
+                        Console.WriteLine("Press any key to continue...");
+                        Console.ReadLine();
+                        Console.Clear();
                         break;
 
                     case "2":
@@ -179,9 +181,7 @@ namespace UniversityClinicHospital
             }
 
         }
-        
-        
-        
+               
     }
 
 }
